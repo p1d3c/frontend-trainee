@@ -1,0 +1,45 @@
+.news {
+  max-width: 600px;
+  width: 100%;
+
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  box-shadow: 0 0 3px 0 lightgray;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.news:hover {
+  transform: scale(1.005);
+}
+
+.news__title {
+  margin: 5px;
+
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.news__rating {
+  margin: 0;
+  margin-left: 5px;
+
+  font-weight: normal;
+}
+
+.news__author {
+  margin: 10px 5px;
+
+  text-align: right;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.news__time {
+  display: block;
+  margin: 0 5px 5px;
+
+  text-align: right;
+  font-size: 18px;
+}

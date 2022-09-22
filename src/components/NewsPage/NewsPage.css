@@ -1,0 +1,25 @@
+.detail__link {
+  display: block;
+}
+
+.detail__time {
+  display: block;
+  margin-top: 10px;
+}
+
+.detail__descendants {
+  display: block;
+  margin-top: 10px;
+}
+
+.detail__reload {
+  margin-left: 20px;
+}
+
+.detail__link {
+  display: inline-block;
+}
+
+.detail__comments {
+  padding-bottom: 20px;
+}
