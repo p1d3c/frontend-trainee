@@ -16,7 +16,7 @@ function Comment(props) {
     commentData.kids.forEach((item) => {
       getData(item)
         .then((res) => {
-          setKids((prev) => [...prev, res]);
+          setKids((prev) => [res]);
         })
         .catch((err) => {
           console.log(err);
